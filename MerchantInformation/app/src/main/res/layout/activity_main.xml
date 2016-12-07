@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C6BC0"
+    tools:context="com.example.txm.merchantinformation.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google"
+        android:id="@+id/imageView_google"/>
+    <TextView
+        android:id="@+id/textView_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google"
+        android:textSize="36sp"
+        android:textColor="#fff"
+        android:paddingLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail:service@google.com"
+        android:textSize="17sp"
+        android:textColor="#fff"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16sp"
+        android:paddingRight="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1600 Amphitheatre Parkway Mountain View, CA 94043"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:paddingLeft="16sp"
+        android:paddingTop="8dp"
+        android:layout_below="@id/textView_google" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google is an American multinational technology company specializing in Internet-related services and products that include online advertising technologies, search, cloud computing, software, and hardware."
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
